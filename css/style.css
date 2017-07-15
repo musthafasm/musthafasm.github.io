@@ -2820,20 +2820,20 @@ table th[class*="col-"] {
 .level {
   text-indent: -9999px;
   background-color: #dddddd;
-  height: 5px;
+  height: 7px;
   width: 100%;
   margin: 5px 0;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
 }
 
 .level-1, .level-2, .level-3, .level-4, .level-5, .level-6, .level-7, .level-8, .level-9, .level-10 {
   width: 0;
   display: block;
   background-color: #999999;
-  height: 5px;
-  -webkit-border-radius: 5px 0 0 5px;
-  border-radius: 5px 0 0 5px;
+  height: 7px;
+  -webkit-border-radius: 7px 0 0 7px;
+  border-radius: 7px 0 0 7px;
 }
 
 .level-1 {
