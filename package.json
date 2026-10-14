@@ -1,0 +1,18 @@
+{
+  "name": "musthafasm",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "author": "Musthafa SM",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
