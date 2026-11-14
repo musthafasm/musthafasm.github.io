@@ -23,8 +23,7 @@
     <header class="sticky top-0 z-10 border-b border-slate-200 bg-white/80 backdrop-blur dark:border-slate-800 dark:bg-slate-900/80">
       <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <a href="/" class="flex items-center gap-2.5 rounded-lg text-[1.15rem] font-semibold tracking-[-0.03em]" data-astro-cid-kbzixps5="">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="7" class="fill-slate-900 dark:fill-sky-400" /><text x="32" y="48" text-anchor="middle" font-family="Helvetica, sans-serif" font-size="48" font-weight="800" class="fill-sky-400 dark:fill-slate-900">M</text></svg>
-          <span class="text-slate-900 dark:text-white">Musthafa</span>
+          <span class="text-slate-900 dark:text-white">MSM</span>
         </a>
         <div class="flex items-center gap-3 sm:gap-5">
           <button
@@ -69,43 +68,60 @@
     </header>
 
     <main class="mx-auto max-w-5xl px-6">
+
       <!-- Hero -->
-      <section id="home" class="grid min-h-[85vh] items-center gap-10 md:grid-cols-3">
-        <div class="md:col-span-2 mt-12 md:mt-0">
-          <span class="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-xs text-slate-600 dark:border-slate-700 dark:text-slate-400">
+      <section id="home" class="grid items-center gap-10 py-12 lg:min-h-[85vh] lg:grid-cols-5 lg:py-0">
+        <div class="min-w-0 lg:col-span-3">
+          <p class="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400">
             <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
-            Open to new projects
-          </span>
-          <p class="mb-2 text-sky-700 dark:text-sky-400">Hi, I'm</p>
-          <h1 class="text-4xl font-bold tracking-tight sm:text-6xl">Musthafa Sali Maheen</h1>
-          <h2 class="mt-3 text-xl font-semibold text-slate-600 sm:text-2xl dark:text-slate-400">
-            Full Stack Web Developer &amp; UI/UX Specialist
-          </h2>
-          <p class="mt-5 max-w-xl text-lg text-slate-600 dark:text-slate-400">
-            I design and build fast, secure, and user-friendly websites and web applications
-            for startups and growing businesses, backed by over a decade of experience.
+            Hey, I'm
           </p>
-          <p class="mt-5 max-w-xl text-lg text-slate-600 dark:text-slate-400">
-            Specialized in WordPress development, from custom themes and plugins to
-            performance optimization, accessibility, and WooCommerce stores.
+          <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Musthafa Sali Maheen</h1>
+          <h2 class="mt-3 text-lg font-semibold text-slate-600 sm:text-xl dark:text-slate-400">
+            Creative Web Developer &amp; SEO Specialist
+          </h2>
+          <p class="mt-5 max-w-xl text-base text-slate-600 sm:text-lg dark:text-slate-400">
+            A creative full-stack web developer based in Kerala, India.
+            I enjoy building fast, secure, scalable, and SEO-friendly websites and applications
+            that help startups and growing businesses transform their ideas into powerful digital experiences.
           </p>
           <div class="mt-8 flex flex-wrap gap-4">
-            <a href="#projects" class="rounded-md bg-sky-700 px-5 py-2.5 font-semibold text-white hover:bg-sky-800 dark:bg-sky-400 dark:text-slate-900 dark:hover:bg-sky-300">
+            <a href="#projects" class="rounded-full border border-sky-700 bg-sky-700 px-6 py-2 text-white hover:bg-sky-800 dark:border-sky-400 dark:bg-sky-400 dark:text-slate-900 dark:hover:bg-sky-300">
               View My Work
             </a>
-            <a href="#contact" class="rounded-md border border-sky-700 px-5 py-2.5 text-sky-700 hover:bg-sky-50 dark:border-sky-400 dark:text-sky-400 dark:hover:bg-sky-400/10">
+            <a href="#contact" class="rounded-full border border-sky-700 px-6 py-2 text-sky-700 hover:bg-sky-50 dark:border-sky-400 dark:text-sky-400 dark:hover:bg-sky-400/10">
               Request a Quote
             </a>
           </div>
+
+          <div class="mt-10 flex justify-between gap-x-4 border-t border-slate-200 pt-8 sm:justify-start sm:gap-x-12 dark:border-slate-700">
+            <div class="flex items-center gap-2 sm:gap-3">
+              <span class="inline-flex items-start text-4xl font-bold leading-none tracking-tight">
+                <span>23</span>
+                <span class="mt-0.5 ml-0.5 text-2xl leading-none text-sky-700 dark:text-sky-400">+</span>
+              </span>
+              <span class="text-sm font-semibold leading-tight text-slate-600 dark:text-slate-400">Years of<br />experience</span>
+            </div>
+            <div class="flex items-center gap-2 sm:gap-3">
+              <span class="inline-flex items-start text-4xl font-bold leading-none tracking-tight">
+                <span>100</span>
+                <span class="mt-0.5 ml-0.5 text-2xl leading-none text-sky-700 dark:text-sky-400">%</span>
+              </span>
+              <span class="text-sm font-semibold leading-tight text-slate-600 dark:text-slate-400">Client<br />satisfaction</span>
+            </div>
+          </div>
         </div>
-        <img
-          src="/musthafasm.png"
-          fetchpriority="high"
-          alt="Musthafa Sali Maheen"
-          class="mx-auto h-56 w-56 rounded-full border-4 border-slate-200 object-cover md:h-64 md:w-64 dark:border-slate-700"
-          width="256"
-          height="256"
-        />
+
+        <div class="mx-auto aspect-square w-64 max-w-full overflow-hidden rounded-[30%_70%_70%_30%/30%_30%_70%_70%] border-4 border-slate-200 sm:w-72 lg:col-span-2 lg:w-80 xl:w-96 dark:border-slate-700">
+          <img
+            src="/musthafasm.png"
+            fetchpriority="high"
+            alt="Musthafa Sali Maheen"
+            class="h-full w-full object-cover"
+            width="384"
+            height="384"
+          />
+        </div>
       </section>
 
       <!-- About -->
@@ -138,10 +154,10 @@
               </p>
             </div>
             <div class="mt-8 flex gap-4">
-              <a href="#contact" class="rounded-md bg-sky-700 px-5 py-2.5 font-semibold text-white hover:bg-sky-800 dark:bg-sky-400 dark:text-slate-900 dark:hover:bg-sky-300">
+              <a href="#contact" class="rounded-full bg-sky-700 px-6 py-2.5 font-semibold text-white hover:bg-sky-800 dark:bg-sky-400 dark:text-slate-900 dark:hover:bg-sky-300">
                 Hire Me
               </a>
-              <a href="/resume.pdf" class="rounded-md border border-slate-300 px-5 py-2.5 hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800">
+              <a href="/resume.pdf" class="rounded-full border border-slate-300 px-6 py-2.5 hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800">
                 Download Resume
               </a>
             </div>
