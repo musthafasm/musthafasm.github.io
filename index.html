@@ -130,7 +130,7 @@
       <!-- About -->
       <section id="about" class="py-16 lg:py-24">
         <!-- Story -->
-        <div class="min-w-0 lg:top-24 lg:col-span-3 lg:self-start">
+        <div class="min-w-0 lg:top-24 lg:col-span-3 lg:self-start pb-7">
           <p class="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400">
             <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
             About me
@@ -158,9 +158,12 @@
           </div>
         </div>
 
-        <div class="mt-8 border-t border-slate-200 pt-8 dark:border-slate-700">
+        <hr class="my-7 border-slate-200 dark:border-slate-700">
+
+        <!-- Technologies -->
+        <div class="py-7">
           <h3 class="mb-2 text-2xl font-bold">Tech I work with</h3>
-          <p class="mb-8 text-slate-600 dark:text-slate-400">
+          <p class="mb-8 max-w-2xl text-base text-slate-600 dark:text-slate-400">
             A selection of the technologies and tools I use to build modern, reliable, high-performing web experiences.
           </p>
           <ul class="flex flex-wrap items-center gap-8">
@@ -193,91 +196,144 @@
             <li title="Figma"><img src="/icons/figma.svg" alt="Figma" width="56" height="56" loading="lazy" class="h-12 w-12 sm:h-14 sm:w-14"></li>
           </ul>
         </div>
-      </section>
 
-      <!-- Experience -->
-      <section id="experience" class="py-20">
-        <h2 class="mb-2 text-2xl font-bold">Work Experience</h2>
-        <p class="mb-8 text-slate-600 dark:text-slate-400">My professional journey so far.</p>
-        <ol class="space-y-10 border-l border-slate-200 pl-6 dark:border-slate-700">
-          <li class="relative">
-            <span class="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full bg-sky-700 dark:bg-sky-400"></span>
-            <p class="text-sm text-slate-500">20XX – Present</p>
-            <h3 class="mt-1 font-semibold">Full Stack Web Developer · Company Name</h3>
-            <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600 dark:text-slate-400">
-              <li>Built and maintained custom websites and web applications using PHP, MySQL and JavaScript.</li>
-              <li>Developed themes, plugins and modules for WordPress, Joomla and Laravel projects.</li>
-              <li>Integrated payment gateways and APIs for e-commerce and mobile apps.</li>
-            </ul>
-          </li>
-          <li class="relative">
-            <span class="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full bg-slate-400 dark:bg-slate-600"></span>
-            <p class="text-sm text-slate-500">20XX – 20XX</p>
-            <h3 class="mt-1 font-semibold">Web Developer · Company Name</h3>
-            <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600 dark:text-slate-400">
-              <li>Converted Photoshop and Sketch designs into responsive HTML, CSS and CMS themes.</li>
-              <li>Improved page speed, security and ongoing site maintenance for client websites.</li>
-            </ul>
-          </li>
-          <li class="relative">
-            <span class="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full bg-slate-400 dark:bg-slate-600"></span>
-            <p class="text-sm text-slate-500">2010 – 20XX</p>
-            <h3 class="mt-1 font-semibold">Junior Web Developer · Company Name</h3>
-            <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600 dark:text-slate-400">
-              <li>Started building websites for small businesses, blogs and start-ups.</li>
-              <li>Learned and applied PHP, jQuery, AJAX and MySQL on real client projects.</li>
-            </ul>
-          </li>
-        </ol>
+        <hr class="my-7 border-slate-200 dark:border-slate-700">
+
+        <!-- Experience -->
+        <div class="py-7">
+          <h2 class="mb-2 text-2xl font-bold">My professional journey</h2>
+          <p class="mb-8 max-w-2xl text-base text-slate-600 dark:text-slate-400">
+            From writing my first line of code to building solutions for clients,
+            here's a look at the experiences that have shaped my career.
+          </p>
+          <ol class="space-y-10 border-l border-slate-200 pl-6 dark:border-slate-700">
+            <li class="relative">
+              <span class="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full bg-sky-700 dark:bg-sky-400"></span>
+              <p class="text-sm text-slate-500">20XX - Present</p>
+              <h3 class="mt-1 font-semibold">Full Stack Web Developer · Company Name</h3>
+              <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600 dark:text-slate-400">
+                <li>Built and maintained custom websites and web applications using PHP, MySQL and JavaScript.</li>
+                <li>Developed themes, plugins and modules for WordPress, Joomla and Laravel projects.</li>
+                <li>Integrated payment gateways and APIs for e-commerce and mobile apps.</li>
+              </ul>
+            </li>
+            <li class="relative">
+              <span class="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full bg-slate-400 dark:bg-slate-600"></span>
+              <p class="text-sm text-slate-500">20XX - 20XX</p>
+              <h3 class="mt-1 font-semibold">Web Developer · Company Name</h3>
+              <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600 dark:text-slate-400">
+                <li>Converted Photoshop and Sketch designs into responsive HTML, CSS and CMS themes.</li>
+                <li>Improved page speed, security and ongoing site maintenance for client websites.</li>
+              </ul>
+            </li>
+            <li class="relative">
+              <span class="absolute -left-[31px] top-1.5 h-3 w-3 rounded-full bg-slate-400 dark:bg-slate-600"></span>
+              <p class="text-sm text-slate-500">2010 - 20XX</p>
+              <h3 class="mt-1 font-semibold">Junior Web Developer · Company Name</h3>
+              <ul class="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600 dark:text-slate-400">
+                <li>Started building websites for small businesses, blogs and start-ups.</li>
+                <li>Learned and applied PHP, jQuery, AJAX and MySQL on real client projects.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
       </section>
 
       <!-- Services -->
-      <section id="services" class="py-20">
-        <h2 class="mb-2 text-2xl font-bold">Services</h2>
-        <p class="mb-8 text-slate-600 dark:text-slate-400">End-to-end web development, from first idea to ongoing support.</p>
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <article class="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-800/50">
-            <h3 class="font-semibold">Custom Web Development</h3>
-            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              Tailor-made websites and web applications in PHP, built on a popular CMS, a framework or
-              from scratch to match your requirements.
+      <section id="services" class="py-16 lg:py-24">
+        <p class="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400">
+          <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+          Services
+        </p>
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">What I can do for you</h2>
+        <p class="mt-3 max-w-2xl text-base text-slate-600 dark:text-slate-400">
+          From custom websites and applications to ongoing support, I provide practical web development solutions tailored to your needs.
+        </p>
+
+        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- 01 -->
+          <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400">
+            <div class="flex items-center justify-between">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <span class="text-sm text-slate-400 dark:text-slate-500">01</span>
+            </div>
+            <h3 class="font-semibold">WordPress Development</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-1">
+              Bespoke websites and web applications built with PHP and WordPress, designed around your specific requirements.
             </p>
-          </article>
-          <article class="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-800/50">
-            <h3 class="font-semibold">CMS &amp; Framework Customisation</h3>
-            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              Secure, standards-compliant themes, plugins and modules that extend WordPress, Joomla,
-              Laravel and CakePHP.
+          </div>
+
+          <!-- 02 -->
+          <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400">
+            <div class="flex items-center justify-between">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></svg>
+              </div>
+              <span class="text-sm text-slate-400 dark:text-slate-500">02</span>
+            </div>
+            <h3 class="font-semibold">CMS &amp; Framework</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-1">
+              Custom themes, plugins, modules, and functionality that extend WordPress, Joomla, Laravel, and CakePHP.
             </p>
-          </article>
-          <article class="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-800/50">
+          </div>
+
+          <!-- 03 -->
+          <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400">
+            <div class="flex items-center justify-between">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+              </div>
+              <span class="text-sm text-slate-400 dark:text-slate-500">03</span>
+            </div>
             <h3 class="font-semibold">Front-end &amp; UI/UX</h3>
-            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              Photoshop and Sketch designs turned into responsive, accessible HTML, CSS and themes,
-              with attention to usability.
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-1">
+              Turning design concepts from Photoshop and Sketch into responsive, accessible, and user-friendly interfaces.
             </p>
-          </article>
-          <article class="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-800/50">
+          </div>
+
+          <!-- 04 -->
+          <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400">
+            <div class="flex items-center justify-between">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+              </div>
+              <span class="text-sm text-slate-400 dark:text-slate-500">04</span>
+            </div>
             <h3 class="font-semibold">Payments &amp; API Integration</h3>
-            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              Payment gateway integration for e-commerce, plus API development for mobile and web
-              applications.
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-1">
+              Payment gateway integration for e-commerce, custom API development and integrations for web applications.
             </p>
-          </article>
-          <article class="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-800/50">
+          </div>
+
+          <!-- 05 -->
+          <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400">
+            <div class="flex items-center justify-between">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
+              </div>
+              <span class="text-sm text-slate-400 dark:text-slate-500">05</span>
+            </div>
+            <h3 class="font-semibold">SEO &amp; Performance</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-1">
+              SEO audits, page speed improvements, and Core Web Vitals optimization to website load faster and rank better.
+            </p>
+          </div>
+
+          <!-- 06 -->
+          <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400">
+            <div class="flex items-center justify-between">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/><circle cx="12" cy="12" r="4"/></svg>
+              </div>
+              <span class="text-sm text-slate-400 dark:text-slate-500">06</span>
+            </div>
             <h3 class="font-semibold">Maintenance &amp; Support</h3>
-            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              Ongoing updates, security scans, scheduled backups and bug fixes to keep your website
-              online and secure.
+            <p class="text-sm text-slate-600 dark:text-slate-400 mb-1">
+              Reliable ongoing support, including updates, security checks, scheduled backups, and bug fixes.
             </p>
-          </article>
-          <article class="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-800/50">
-            <h3 class="font-semibold">Technical Consultancy</h3>
-            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              Practical advice on technology choices and planning to turn your idea into a strong
-              online presence.
-            </p>
-          </article>
+          </div>
         </div>
       </section>
 
