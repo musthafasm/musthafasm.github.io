@@ -15,15 +15,15 @@
   }
 
   .stats-value {
-    @apply inline-flex items-start text-4xl font-bold leading-none tracking-tight;
+    @apply inline-flex items-start text-4xl lg:text-5xl font-bold leading-none tracking-tight;
   }
 
   .stats-sign {
-    @apply mt-0.5 ml-0.5 text-2xl leading-none text-sky-700 dark:text-sky-400;
+    @apply mt-0.5 ml-0.5 text-2xl lg:text-3xl leading-none text-sky-700 dark:text-sky-400;
   }
 
   .stats-text {
-    @apply text-sm font-semibold leading-tight text-slate-600 dark:text-slate-400;
+    @apply text-sm lg:text-base font-semibold leading-tight text-slate-600 dark:text-slate-400;
   }
 
   .section-pill {
