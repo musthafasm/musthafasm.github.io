@@ -1,0 +1,33 @@
+# Dependencies and Packages
+node_modules/
+vendor/
+package-lock.json
+
+# Build Output
+dist/
+.vite/
+
+# IDE Files
+.project
+.settings
+.vscode
+.idea/
+
+# Log Files
+*.log
+npm-debug.log*
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+*.local
+
+# Operating System Files
+*~
+*.bak
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+desktop.ini

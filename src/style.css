@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+  .btn {
+    @apply rounded-full border border-sky-700 bg-sky-700 px-6 py-2 text-white hover:bg-sky-800 dark:border-sky-400 dark:bg-sky-400 dark:text-slate-900 dark:hover:bg-sky-300;
+  }
+
+  .btn-outline {
+    @apply rounded-full border border-sky-700 px-6 py-2 text-sky-700 hover:bg-sky-50 dark:border-sky-400 dark:text-sky-400 dark:hover:bg-sky-400/10;
+  }
+
+  .nav-link {
+    @apply hover:text-sky-700 dark:hover:text-sky-400;
+  }
+
+  .stats-value {
+    @apply inline-flex items-start text-4xl lg:text-5xl font-bold leading-none tracking-tight;
+  }
+
+  .stats-sign {
+    @apply mt-0.5 ml-0.5 text-2xl lg:text-3xl leading-none text-sky-700 dark:text-sky-400;
+  }
+
+  .stats-text {
+    @apply text-sm lg:text-base font-semibold leading-tight text-slate-600 dark:text-slate-400;
+  }
+
+  .section-pill {
+    @apply mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-400;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-tight sm:text-4xl;
+  }
+
+  .tech-icon {
+    @apply h-12 w-12 sm:h-14 sm:w-14;
+  }
+
+  .service-card {
+    @apply flex flex-col gap-3 rounded-2xl border border-slate-200 p-6 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400;
+  }
+
+  .service-icon {
+    @apply flex h-10 w-10 items-center justify-center rounded-xl bg-sky-100 text-sky-700 dark:bg-sky-400/10 dark:text-sky-400;
+  }
+
+  .project-card {
+    @apply overflow-hidden rounded-xl border border-slate-200 transition hover:border-sky-700 dark:border-slate-700 dark:hover:border-sky-400;
+  }
+
+  .project-tag {
+    @apply rounded-full border border-slate-200 px-3 py-0.5 text-xs text-slate-600 dark:border-slate-700 dark:text-slate-400;
+  }
+
+  .project-link {
+    @apply mt-5 inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:underline dark:text-sky-400;
+  }
+
+  .project-img {
+    @apply aspect-[16/10] w-full border-b border-slate-200 bg-slate-100 object-cover dark:border-slate-700 dark:bg-slate-800;
+  }
+
+  .contact-link {
+    @apply flex items-center gap-3 text-slate-400 hover:text-white transition-colors;
+  }
+
+  .contact-icon {
+    @apply w-9 h-9 flex items-center justify-center bg-slate-800 dark:bg-slate-900 rounded-lg transition-colors shrink-0;
+  }
+}
+
+.hero-image {
+  object-fit: cover;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: blob-morph 12s ease-in-out infinite;
+  transition: transform 0.4s ease;
+}
+
+@keyframes blob-morph {
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  33% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  66% {
+    border-radius: 73% 27% 41% 59% / 40% 58% 42% 50%;
+  }
+}
